@@ -3,14 +3,10 @@
 body {
     background-color: lightblue;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-    font-size: 16;
+    overflow: hidden;  
 }
 container {
     height: 100%;
-}
-h1 {
-    font-size: 24;
 }
 img {
     height: auto;
@@ -33,6 +29,6 @@ img {
     bottom: 16px;
     left: 32px;
     position: absolute;
-    font-size: 12;
+    font-size: 12px;
     color: lightblue;
   }
