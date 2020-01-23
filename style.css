@@ -1,34 +1,45 @@
 @charset "UTF-8";
-
 body {
-    background-color: lightblue;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;  
+    overflow: hidden;
 }
-container {
-    height: 100%;
+
+html {
+    background: url(./bg.jpg) no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-img {
-    height: auto;
-    width: 100%;
-    display: block;    
-    margin-left: auto;
-    margin-right: auto;
+
+h1 {
+    font-size: 3vh;
 }
-#center {
-    margin: 0 auto;
-    float:none;
+
+h2 {
+    font-size: 2vh;
 }
+
+p, a {
+    font-size: 1.5vh;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
 .topright {
     position: absolute;
-    top: 48px;
-    right: 96px;  
-  }
+    top: 6vh;
+    right: 8vw;
+}
+
 .bottom {
     position: absolute;
-    bottom: 16px;
-    left: 32px;
+    bottom: 1vh;
+    left: 1vw;
     position: absolute;
-    font-size: 12px;
-    color: lightblue;
-  }
+    font-size: 1vh;
+    color: darkgrey;
+}
