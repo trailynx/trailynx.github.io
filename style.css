@@ -15,19 +15,56 @@ html {
 
 #card {
     position: absolute;
-    width: 42vh;;
-    height: 21vh;;
-    padding: 1vh;;
+    width: 42vh;
+    height: 20vh;
+    padding: 1vh;
     top: 6vh;
     right: 8vw;
+    /* border-radius: 5px; */
     /* margin-left: -250px; */
-    background: rgb(208, 222, 233);
+    /* background: #BFCEE1; */
+    background: #C6CEE3;
     box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
     z-index: 5;
   }
+  
+  #gradient {
+    /* position: absolute; */
+    /* background: #999955; */
+    /* background-image: linear-gradient(#DAB046 20%, #D73B25 20%, #D73B25 40%, #C71B25 40%, #C71B25 60%, #961A39 60%, #961A39 80%, #601035 80%); */
+    background-image: linear-gradient(#A3AEB4 20%, #BBD0E1 20%, #BBD0E1 40%, #63607D 40%, #63607D 60%, #403B41 60%, #403B41 80%, #1D1C21 80%);
+    /* background: rgb(2,0,36); */
+    /* background-image: linear-gradient(rgba(2,0,36,1) 20%, rgba(9,9,121,1) 20%,rgba(9,9,121,1) 40%,rgba(6,84,170,1) 40%, rgba(6,84,170,1) 60%, rgba(3,64,216,1) 60% rgba(3,64,216,1) 80%, rgba(0,212,255,1) 80%); */
+    /* margin: 0 auto; */
+    margin-top: 9vh;
+    /* top: 9vh; */
+    width: 100%;
+    height: 16vh;
+  }
+  
+#gradient:after {
+  content: "";
+  position: absolute;
+  background: #C6CEE3;
+  /* background: #BFCEE1; */
+  /* left: 50%; */
+  /* margin-top: -67.5px;
+  margin-left: -270px; */
+  /* padding-left: 20px; */
+  border-radius: 5px;
+  
+  /* margin-top: -2vh; */
+  width: 46vh;
+  height: 24vh;
+  padding: 1vh;
+  top: 4vh;
+  right: 7vw;
+  z-index: -1;
+}
 
 #card h1 {
     font-size: 4vh;
+    /* color: #FFF; */
     color: #333;
   margin: 1vh;  
   margin-bottom: 2vh
@@ -37,6 +74,7 @@ html {
 #card h2 {
     font-size: 3vh;
     color: #333;
+    /* color: #FFF; */
     margin: 1vh;  
     margin-bottom: 2vh
   /* padding: 0; */
@@ -44,7 +82,8 @@ html {
 
 #card p, a {
     font-size: 2vh;
-    color: #333;
+    color: #333;    
+    /* color: #FFF; */
     margin: 0 auto;  
     margin-bottom: 2vh
   /* padding: 0; */
@@ -54,9 +93,9 @@ html {
     float: right;
     border-radius: 5px;
     margin-right: 10px;
-    -webkit-filter: sepia(0.5);
+    /* -webkit-filter: sepia(0.5);
     -moz-filter: sepia(0.5);
-    filter: sepia(0.5);
+    filter: sepia(0.5); */
   }
 
 .center {
