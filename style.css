@@ -15,12 +15,12 @@ html {
 
 #card {
   position: absolute;
-  width: 42vh;
+  width: 36vh;
   height: 20vh;
   padding: 1vh;
   top: 6vh;
   right: 8vw;
-  /* border-radius: 5px; */
+  border-radius: 5px;
   /* margin-left: -250px; */
   /* background: #BFCEE1; */
   background: #C6CEE3;
@@ -45,7 +45,7 @@ html {
 #gradient:after {
   content: "";
   position: absolute;
-  background: #C6CEE3;
+  background: #C6CEE3AA;
   /* background: #BFCEE1; */
   /* left: 50%; */
   /* margin-top: -67.5px;
@@ -53,16 +53,16 @@ html {
   /* padding-left: 20px; */
   border-radius: 5px;
   /* margin-top: -2vh; */
-  width: 46vh;
+  width: 39vh;
   height: 24vh;
   padding: 1vh;
   top: 4vh;
-  right: 7vw;
+  right: 7.5vw;
   z-index: -1;
 }
 
 #card h1 {
-  font-size: 4vh;
+  font-size: 3vh;
   /* color: #FFF; */
   color: #333;
   margin: 1vh;
@@ -71,7 +71,7 @@ html {
 }
 
 #card h2 {
-  font-size: 3vh;
+  font-size: 2.5vh;
   color: #333;
   /* color: #FFF; */
   margin: 1vh;
@@ -79,12 +79,19 @@ html {
   /* padding: 0; */
 }
 
-#card p, a {
-  font-size: 2vh;
+#card p{
+  font-size: 1.6vh;
   color: #333;
   /* color: #FFF; */
-  margin: 0 auto;
+  margin-left: 1vh;
   margin-bottom: 2vh
+  /* padding: 0; */
+}
+
+#card a {
+  font-size: 1.6vh;
+  color: #333;
+  /* color: #FFF; */
   /* padding: 0; */
 }
 
