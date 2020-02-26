@@ -98,11 +98,23 @@ html {
 #card img {
   width: 12vh;
   float: right;
-  border-radius: 5px;
   margin-right: 10px;
+  margin-top: 8px;
   /* -webkit-filter: sepia(0.5);
     -moz-filter: sepia(0.5);
     filter: sepia(0.5); */
+}
+
+.photo-wrapper {
+  background-color: rgba(243, 246, 248, 0.94);
+  box-shadow: inset 0px 1.5px 3px 0px rgba(0,0,0,0.15), 0px 1.5px 3px 0px rgba(0,0,0,0.15);
+  border-radius: 49.9%;  
+  width: 14vh;
+  height: 14vh;
+  float: right;
+  /* border-radius: 50%; */
+  margin-right: 10px;
+  margin-right: 10px;
 }
 
 .center {
