@@ -66,6 +66,7 @@ html {
   /* color: #FFF; */
   color: #333;
   margin: 1vh;
+  margin-top: 1.4vh;
   margin-bottom: 2vh
   /* padding: 0; */
 }
@@ -98,6 +99,7 @@ html {
 #card img {
   width: 12vh;
   float: right;
+  border-radius: 10%;
   margin-right: 10px;
   margin-top: 8px;
   /* -webkit-filter: sepia(0.5);
