@@ -15,7 +15,7 @@ html {
 
 #card {
   position: absolute;
-  width: 36vh;
+  width: 40vh;
   height: 20vh;
   padding: 1vh;
   top: 6vh;
@@ -53,7 +53,7 @@ html {
   /* padding-left: 20px; */
   border-radius: 5px;
   /* margin-top: -2vh; */
-  width: 39vh;
+  width: 42vh;
   height: 24vh;
   padding: 1vh;
   top: 4vh;
@@ -100,7 +100,7 @@ html {
   width: 12vh;
   float: right;
   border-radius: 10%;
-  margin-right: 10px;
+  margin-right: 8px;
   margin-top: 8px;
   /* -webkit-filter: sepia(0.5);
     -moz-filter: sepia(0.5);
