@@ -67,7 +67,7 @@ html {
   color: #333;
   margin: 1vh;
   margin-top: 1.4vh;
-  margin-bottom: 2vh
+  margin-bottom: 0.6vh
   /* padding: 0; */
 }
 
@@ -76,7 +76,16 @@ html {
   color: #333;
   /* color: #FFF; */
   margin: 1vh;
-  margin-bottom: 3vh
+  margin-bottom: 1vh
+  /* padding: 0; */
+}
+
+#card h3 {
+  font-size: 1.4vh;
+  color: #444;
+  /* color: #FFF; */
+  margin: 1vh;
+  margin-bottom: 4vh
   /* padding: 0; */
 }
 
