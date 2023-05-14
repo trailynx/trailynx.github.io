@@ -28,6 +28,22 @@ html {
   z-index: 5;
 }
 
+#card-content {
+  position: absolute;
+  width: 50vw;
+  height: 40vh;
+  padding: 1vh;
+  bottom: 6vh;
+  left: 25vw;
+  border-radius: 5px;
+  /* margin-left: -250px; */
+  /* background: #BFCEE1; */
+  background: #C6CEE3;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 6;
+}
+
+
 #gradient {
   /* position: absolute; */
   /* background: #999955; */
